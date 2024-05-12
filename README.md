@@ -1,8 +1,8 @@
 <h1>Tower Climber 🏰</h1> 
 
-<h3>✅ Game for one player</h3>
+<h3>✅ Game for one player 💪</h3>
 
-<h3>✅ Your goal is to climb as high as you can and not die from various obstacles(You have 3 ❤️) 💪</h3>
+<h3>✅ Your goal is to climb as high as you can and not die from various obstacles(You have 3 ❤️)</h3>
 
 <h3>✅ Controls </h3>
 <ul>
