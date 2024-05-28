@@ -5,22 +5,21 @@ using UnityEngine;
 public class LeftSideBow : MonoBehaviour
 {
     public GameObject arrowPrefab;
-    public float shootInterval = 5f;
     public float spawnHeightRange = 4f;
-    public int numberOfArrows = 3;
+    public int numberOfArrows = 1;
 
     private float timer = 0f;
     private float squareHeight;
+    private float shootInterval;
 
     void Start()
     {
-        // squareHeight = GetComponent<SpriteRenderer>().bounds.size.y;
-        squareHeight = transform.localScale.y; // Use local scale if SpriteRenderer is not needed
+        shootInterval = Random.Range(3f, 6f);
+        squareHeight = transform.localScale.y;
     }
 
-    void Update()
+    public void Update()
     {
-
         timer += Time.deltaTime;
 
         if (timer >= shootInterval)
@@ -38,6 +37,8 @@ public class LeftSideBow : MonoBehaviour
 
                 Destroy(arrow, 5f);
             }
+
+            shootInterval = Random.Range(3f, 6f);
         }
     }
 }

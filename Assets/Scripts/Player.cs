@@ -11,11 +11,21 @@ public class Player : MonoBehaviour
     [Header("Bows")]
     public Transform RightSideBow;
     public Transform LeftSideBow;
+    public Transform DownBow;
+
+    [Header("Store")]
+    public Transform store;
+
+    [Header("Background")]
+    public Transform BackGroundController;
 
     [Header("PlayerSettings")]
     public float ladderSwitchDuration = 1.0f;
     public float climbSpeed = 5f;
     public float maxDownwardMovement = 1.0f;
+
+    [Header("CoinSpawner")]
+    public Transform CoinSpawner;
 
     [Header("Animations")]
     private Animator animator;
@@ -54,6 +64,10 @@ public class Player : MonoBehaviour
             camera.transform.Translate(movement);
             RightSideBow.Translate(movement);
             LeftSideBow.Translate(movement);
+            BackGroundController.Translate(movement);
+            DownBow.Translate(movement);
+            store.Translate(movement);
+            CoinSpawner.Translate(movement);
 
 
 
@@ -73,6 +87,10 @@ public class Player : MonoBehaviour
             camera.transform.Translate(movement);
             RightSideBow.Translate(movement);
             LeftSideBow.Translate(movement);
+            BackGroundController.Translate(movement);
+            DownBow.Translate(movement);
+            store.Translate(movement);
+            CoinSpawner.Translate(movement);
 
 
             verticalMovement -= climbSpeed * Time.deltaTime;
@@ -101,6 +119,7 @@ public class Player : MonoBehaviour
         targetLadderPosition = targetPosition;
         StartCoroutine(MoveToLadder());
     }
+
 
     IEnumerator MoveToLadder()
     {

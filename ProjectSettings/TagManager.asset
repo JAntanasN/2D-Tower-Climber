@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Ladder
   - Square
+  - Arrow
+  - Tower
+  - Coin
   layers:
   - Default
   - TransparentFX
@@ -13,9 +16,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Player
+  - Obstacles
+  - Arrow
   - 
   - 
   - 

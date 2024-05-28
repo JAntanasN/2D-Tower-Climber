@@ -344,7 +344,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Climbers_0: -2343253680609865702
+      Climbers_1: 8447887823675571861
+      Climbers_2: 170214336623440708
+      Climbers_3: -2100277174179913790
+      Climbers_4: -3860078727758533427
+      Climbers_5: -1911734999503531850
+      Climbers_6: 1406701080283880110
+      Climbers_7: 1060846772750404855
+      Climbers_8: -2620689052154293543
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
