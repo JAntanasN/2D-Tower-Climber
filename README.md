@@ -8,8 +8,8 @@
 <ul>
   <li> <strong>W</strong> to climb up</li>
   <li> <strong>S</strong> to climb down</li>
-  <li> <strong>D</strong> to move from right ladder to left ladder</li>
-  <li> <strong>A</strong> to move from left ladder to right ladder</li>
+  <li> <strong>D</strong> to move from left ladder to right ladder</li>
+  <li> <strong>A</strong> to move from right ladder to left ladder</li>
 </ul>
 
 
